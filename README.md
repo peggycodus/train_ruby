@@ -14,7 +14,7 @@ As a train rider, I want to view a train line, so that I can see the stations wh
 As a train rider, I want to view a train station, so that I can see which trains come to it.
 There's a many-to-many relationship between stations and lines. I'd suggest calling your join table stops.
 
-When you want to list out the lines at a particular station, you'll need to start by selecting all of the stops for that station, and then selecting all of the lines for those stops. (If you're more familiar with SQL, you can use a join, which is different than a join table, but if not, we'll have a lesson on joins tonight.)
+When you want to list out the lines at a particular station, you'll need to start by selecting all of the stop for that station, and then selecting all of the lines for those stop. (If you're more familiar with SQL, you can use a join, which is different than a join table, but if not, we'll have a lesson on joins tonight.)
 
 After you finish the above stories, flesh out the CRUD operations for each of the classes in your program.
 
